@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Africheck</title>
+    <link href="/OTP/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class=" h-screen flex flex-col lg:h-screen lg:grid grid-cols-5 ">
+        <aside class="basis-1/4 lg:col-start-1 col-span-3 flex place-content-center place-items-center bg-light-blue">
+            <div class="h-2/3 flex flex-col place-content-center place-items-center">
+                <img src="/OTP/assets/phone-image.png" height="400px" width="500px" alt="phone-image">
+            </div>
+        </aside>
+
+        <main class="basis-3/4 flex w-full flex-col px-6 lg:col-start-4 col-span-2 pb-28 lg:px-16 lg:flex lg:flex-col place-content-center">
+
+            <div class="hover:opacity-50 pt-6">
+                <img src="/OTP/assets/Arrow.png" onclick="" alt="back-button">
+            </div>
+
+            <div class="md:text-lg">
+                <div class="text-justify text-xl pt-16">
+                    <p>Please Check your email</p>
+                </div>
+
+                <div class="text-left">
+                    <p>Please check your email royd@afri-check.com for a validation code and enter it below to complete
+                        your account creation.</p>
+                </div>
+
+                <form action="get" class="flex w-full place-content-between mt-6 md:flex justify-center " data-group-name="digits" data-autosubmit="false"
+                    autocomplete="false">
+                    <input type="text" class="border-blue rounded border h-12 w-12 lg:h-16 lg:w-16 mr-3 hover:border-2" name="digit-1"
+                        id="digit-1" data-next="digit-2">
+                    <input type="text" class="border-blue rounded border h-12 w-12 lg:h-16 lg:w-16  mr-3 hover:border-2" name="digit-2"
+                        id="digit-2" data-next="digit-3" data-previous="digit-1">
+                    <input type="text" class="border-blue rounded border h-12 w-12 lg:h-16 lg:w-16  mr-3 hover:border-2" name="digit-3"
+                        id="digit-3" data-next="digit-4" data-previous="digit-2">
+                    <input type="text" class="border-blue rounded border h-12 w-12 lg:h-16 lg:w-16  mr-3 hover:border-2" name="digit-4"
+                        id="digit-4" data-next="digit-5" data-previous="digit-3">
+                    <input type="text" class="border-blue rounded border h-12 w-12 lg:h-16 lg:w-16 hover:border-2" name="digit-5"
+                        id="digit-5" data-previous="digit-4">
+
+                </form>
+
+                <div class="flex place-content-center text-lg mt-10">
+                    <p onclick="" class=" hover:underline">Resend Code</p>
+                </div>
+
+                <div class="flex place-content-center mt-4">
+                    <button type="submit" class="bg-blue-600 self-center text-white w-40 rounded-lg hover:opacity-50 text-sm h-9">Validate</button>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
