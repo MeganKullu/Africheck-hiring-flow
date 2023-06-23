@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Billing/dist/output.css">
+</head>
+<body>
+    <div class="bg-light-blue h-screen flex flex-col lg:py-8 lg:px-8 lg:flex lg:flex-row sm:h-screen">
+        <aside class="md:basis-2/6 lg:basis-2/12 bg-blue lg:rounded-xl"></aside>
+        <main class="md:basis-4/6 px-2 md:pt-10 md:px-2 lg:basis-10/12 flex flex-col lg:place-content-center lg:ml-4 lg:pr-8">
+            <div class="pt-14 px-2 md:px-4 md:pt-4 lg:pt-8 ">
+                <div class="flex md:mr-36 lg:mt-6 lg:ml-10 place-content-between lg:mr-72">
+                    <div class="flex flex-col place-items-center text-center">
+                         <div><img src="/Billing/assets/check.png" alt="ellipse" height="50px" width="50px"></div>
+                         <div><p>Accept Terms</p></div>
+                    </div>
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/Billing/assets/darkblue.png" alt="ellipse" height="50px" width="50px"></div>
+                        <div><p>Billing</p></div>
+                    </div>
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/Billing/assets/lightblue.png" alt="ellipse" height="50px" width="50px"></div>
+                        <div><p>Payment</p></div>
+                    </div>
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/Billing/assets/lightblue.png" alt="ellipse" height="50px" width="50px"></div>
+                        <div><p>View Talents</p></div>
+                    </div>
+
+                </div>
+
+                <div class="text-blue text-center my-6 md:text-xs lg:text-sm lg:my-4">
+                    <p>Note: Minimum Business Licenses rendered are 5 while minimum individual licences rendered is 1
+                    </p>
+                </div>
+               
+                <table class="w-full mb-4 lg:mb-6 text-white text-left">
+                    <thead class="bg-dark-blue h-12 md:h-9 lg:h-11">
+                     <tr>
+                            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Product</th>
+                            <th>&nbsp;Price</th>
+                            <th>&nbsp;Quantity</th>
+                            <th>&nbsp;Sub Total</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-blue">
+                        <tr class="h-12 md:h-9 lg:h-11">
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account Opening Charges</td>
+                            <td>&nbsp;KSH 500</td>
+                            <td>&nbsp;1</td>
+                            <td>&nbsp;500</td>
+                            
+                        </tr>
+
+                        <tr class="border h-0 bg-white"></tr>
+                        
+                        <tr class="h-12 md:h-9 lg:h-11">
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Verification Services</td>
+                            <td>&nbsp;KSH 800</td>
+                            <td>&nbsp;5</td>
+                            <td>&nbsp;4,800</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+               
+                <div class="flex place-content-end mb-6 md:mb-8 lg:mb-3">
+                    <div class="flex flex-col">
+                        <div class="text-blue font-bold ml-2 mb-2">
+                            <p>Cart Totals</p>
+                        </div>
+                        <div class="bg-blue rounded-md px-2 py-2 text-white mb-1">
+                            <p>Sub Total &nbsp;&nbsp;&nbsp;&nbsp;500</p>
+                        </div>
+                        <div class="bg-blue rounded-md px-2 py-2 text-white mb-1">
+                            <p>Total &nbsp;&nbsp;&nbsp;&nbsp;500</p>
+                        </div>
+                        <button class="bg-dark-blue text-white hover:opacity-50 font-bold text-center rounded-md px-8 py-2">Proceed To
+                            Checkout</button>
+                    </div>
+                </div>
+
+                <div class="flex place-content-end pb-4">
+                    <button class="bg-blue rounded-md h-9 w-32 text-white hover:opacity-20">Next</button>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    
+</body>
+</html>
