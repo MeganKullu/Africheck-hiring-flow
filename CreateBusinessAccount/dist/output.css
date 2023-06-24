@@ -545,6 +545,14 @@ html {
   margin-top: 1.5rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -565,6 +573,26 @@ html {
   width: 100%;
 }
 
+.w-3\/4{
+  width: 75%;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-4\/6{
+  width: 66.666667%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
+}
+
 .basis-1\/2{
   flex-basis: 50%;
 }
@@ -581,12 +609,20 @@ html {
   flex-direction: column;
 }
 
+.place-content-center{
+  place-content: center;
+}
+
 .place-content-end{
   place-content: end;
 }
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-stretch{
+  justify-content: stretch;
 }
 
 .gap-2{
@@ -683,6 +719,10 @@ html {
 
   .lg\:mt-6{
     margin-top: 1.5rem;
+  }
+
+  .lg\:mt-1{
+    margin-top: 0.25rem;
   }
 
   .lg\:flex{
