@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <div class="bg-light-blue lg:py-8 lg:pl-8 lg:pr-36 flex flex-col lg:flex-row h-screen">
+        <aside
+            class="md:basis-1/5 lg:basis-3/12 md:border md:border-blue md:bg-blue lg:rounded-lg lg:bg-[url('/PaymentMethodRenderPage/assets/stockphoto.png')] bg-no-repeat bg-cover">
+        </aside>
+
+        <main
+            class=" pt-16 lg:pt-0 px-6 md:basis-4/5 lg:basis-9/12 flex flex-col lg:ml-4 lg:pr-8 h-screen lg:place-content-center">
+            <div class="flex flex-col lg:ml-10 ">
+
+
+                <div class="flex place-content-between md:pb-10 lg:pb-10 2xl:pb-14 md:mr-36 lg:mr-36 2xl:mr-72">
+
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/PaymentMethodRenderPage/assets/check.png" alt="ellipse" height="50px"
+                                width="50px"></div>
+                        <div>
+                            <p>Accept Terms</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/PaymentMethodRenderPage/assets/check.png" alt="ellipse" height="50px"
+                                width="50px"></div>
+                        <div>
+                            <p>Billing</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/PaymentMethodRenderPage/assets/check.png" alt="ellipse" height="50px"
+                                width="50px">
+                        </div>
+                        <div>
+                            <p>Payment</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col place-items-center text-center">
+                        <div><img src="/PaymentMethodRenderPage/assets/lightblue.png" alt="ellipse" height="50px"
+                                width="50px">
+                        </div>
+                        <div>
+                            <p>View Talents</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex w-full md:justify-center lg:flex flex-col lg:pl-28">
+                    <div>
+                        <div class="text-3xl font-extrabold mt-6 md:mb-6 lg:mb-6 2xl:mb-10">
+                            <p>Payment Details</p>
+                        </div>
+                        <div class="flex flex-col justify-start">
+                            <label class="text-sm mb-2" for="nameOnCard">Name on card</label>
+                            <input class="border-b-2 border-gray-600 mb-2 w-52 bg-light-blue" type="text"
+                                id="nameOnCard">
+                        </div>
+                        <div class="flex flex-col justify-start">
+                            <label class="text-sm mb-2" for="cardNumber">Card Number</label>
+                            <input class="border-b-2 border-gray-600 mb-2 w-72 bg-light-blue" type="text"
+                                id="cardNumber">
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="flex flex-col justify-start">
+                                <label class="text-sm mb-2" for="validthrough">Valid Through</label>
+                                <input class="border-b-2 border-gray-600 w-28 mb-2 bg-light-blue" type="text"
+                                    id="validthrough">
+                            </div>
+
+                            <div class="flex flex-col justify-start">
+                                <label class="text-sm mb-2" for="cvv">CVV</label>
+                                <input class="border-b-2 border-gray-600 mb-2 w-24 bg-light-blue" type="text" id="cvv">
+                            </div>
+
+                        </div>
+                        <div class="flex place-content-between mt-12">
+                            <div class="bg-blue rounded-lg text-white py-2 px-4">
+                                <p>Total KSH 15,000</p>
+                            </div>
+                            <button class="bg-blue rounded-lg hover:opacity-50 text-white py-2 px-4" onclick="">
+                                <span>PAY NOW</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
