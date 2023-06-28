@@ -611,6 +611,14 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -653,16 +661,12 @@ html {
 }
 
 @media (min-width: 768px){
-  .md\:mb-6{
-    margin-bottom: 1.5rem;
+  .md\:mb-4{
+    margin-bottom: 1rem;
   }
 
   .md\:mt-6{
     margin-top: 1.5rem;
-  }
-
-  .md\:mb-4{
-    margin-bottom: 1rem;
   }
 
   .md\:flex{
@@ -677,16 +681,28 @@ html {
     height: 100vh;
   }
 
-  .md\:h-72{
-    height: 18rem;
-  }
-
   .md\:basis-2\/6{
     flex-basis: 33.333333%;
   }
 
   .md\:basis-4\/6{
     flex-basis: 66.666667%;
+  }
+
+  .md\:basis-1\/6{
+    flex-basis: 16.666667%;
+  }
+
+  .md\:basis-1\/4{
+    flex-basis: 25%;
+  }
+
+  .md\:basis-3\/6{
+    flex-basis: 50%;
+  }
+
+  .md\:basis-3\/4{
+    flex-basis: 75%;
   }
 
   .md\:flex-col{
@@ -704,10 +720,6 @@ html {
 
   .md\:pt-6{
     padding-top: 1.5rem;
-  }
-
-  .md\:pt-4{
-    padding-top: 1rem;
   }
 }
 
@@ -760,12 +772,20 @@ html {
     place-items: center;
   }
 
-  .lg\:justify-stretch{
-    justify-content: stretch;
-  }
-
   .lg\:rounded-xl{
     border-radius: 0.75rem;
+  }
+
+  .lg\:rounded{
+    border-radius: 0.25rem;
+  }
+
+  .lg\:rounded-3xl{
+    border-radius: 1.5rem;
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/assets\/istock\.png\'\)\]{
+    background-image: url('../assets/istock.png');
   }
 
   .lg\:py-8{
