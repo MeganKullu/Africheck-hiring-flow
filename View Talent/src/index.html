@@ -9,31 +9,37 @@
 </head>
 
 <body>
-    <div class="flex flex-col w-full bg-light-blue h-screen">
+    <div class="flex flex-col w-full px-4 md:px-0 bg-light-blue md:h-screen">
         <aside
-            class="md:basis-1/5 lg:basis-2/5 flex flex-row place-content-start place-items-center md:bg-[url('../assets/doctorbanner.png')] bg-no-repeat bg-cover">
-            <div class="lg:flex gap-6 ml-24">
-                <div class="lg:flex">
-                    <div class="lg:flex">
+            class=" md:basis-1/5 lg:basis-2/5 2xl:basis-2/5 lg:flex col-span-1 row-span-1 md:flex md:flex-col md:place-content-center  lg:place-content-center lg:place-items-center md:bg-[url('../assets/doctorbanner.png')] bg-no-repeat bg-cover">
+            <div
+                class="flex flex-col w-full lg:flex lg:flex-row pt-16 md:pt-0 lg:pt-0 place-content-center lg:place-content-start place-items-center lg:place-items-start md:flex md:flex-row md:place-content-start lg:mx-0 md:gap-4 md:pl-16 lg:pl-28 lg:gap-6 ">
+
+                <div class=" flex flex-col place-content-center place-items-center lg:flex">
+                    <div class="flex">
                         <img src="../assets/banner.png" alt="talent images" height="40px" width="200px" />
                     </div>
                 </div>
 
-                <div class="lg:flex bg-blue h-16 rounded-full w-90 self-center place-content-center pl-1 pr-4 py-1">
-                    <div class="flex place-content-center pr-6">
-                        <img src="../assets/image.png" alt="talent image" height="70px" width="60px" />
+                <div
+                    class="flex place-content-start place-items-center mt-4 md:mt-0 h-16 w-56 lg:w-1/3 lg:flex bg-blue lg:h-16 rounded-full lg:self-center lg:place-content-start lg:place-items-center pl-1 lg:pr-4 ">
+
+                    <div class="flex place-content-start lg:place-content-center lg:pr-6 lg:my-2">
+                        <img src="../assets/image.png" alt="talent image" height="55px" width="60px" />
                     </div>
-                    <div class="lg:flex flex-col self-center place-content-center">
+                    <div class="lg:flex lg:flex-col lg:place-content-center">
                         <p class="text-white font-extrabold text-center text-2xl lg:text-4xl">
-                            Select<span class="text-black text-4xl">&nbsp;Talents</span>.
+                            Select<span class="text-black lg:text-4xl">&nbsp;Talents</span>.
                         </p>
                     </div>
+
                 </div>
+
             </div>
         </aside>
-        <main class="lg:basis-3/5">
+        <main class="lg:basis-3/5 2xl:basis-3/5">
             <div>
-                <div class="flex place-content-center gap-8 pt-12 pb-10">
+                <div class="flex flex-col  md:flex md:flex-row md:place-content-center gap-2 lg:gap-8 pt-12 pb-10">
                     <div>
                         <select class="h-11 rounded-lg lg:w-72" name="" id="">
                             <option value="hidden">&nbsp;&nbsp;Choose Category</option>
@@ -74,64 +80,77 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col lg:flex-row  text-white px-14 gap-4">
+                <div
+                    class="flex flex-col lg:flex-row md:place-content-center place-items-center text-white lg:px-14 gap-2 lg:gap-4 mb-2">
                     <div class="flex lg:w-1/2 bg-dark-blue h-20 rounded-lg p-2">
-                        <div class="flex flex-row w-full">
+                        <div class="flex flex-row ">
                             <div class="flex flex-col place-content-center">
-                             <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
-                             <div class="absolute z-10 pb-9 pl-12"><img src="../assets/checkmark.png" alt="check mark"></div>
+                                <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
+                                <div class="absolute z-10 pb-9 pl-6 md:pl-10 lg:pl-12"><img src="../assets/checkmark.png"
+                                        alt="check mark"></div>
                             </div>
                             <div class="flex flex-col place-content-center px-2 pb-3">
                                 <div>
-                                    <p>Stella Kamau</p>
+                                    <p class="text-xs xl:text-base">Stella Kamau</p>
                                 </div>
                                 <div>
                                     <p class="text-xs">Available to start now</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="flex flex-col mx-4">
                             <div class="h-8 mb-2 px-2 bg-white flex gap-2 place-content-center place-items-center">
                                 <div><img src="../assets/alarm.png" alt="alarm"></div>
-                                <div class="text-blue text-xs"><p>Suggested Match</p></div>
+                                <div class="text-blue text-xs">
+                                    <p>Suggested Match</p>
+                                </div>
                             </div>
                             <div class="text-xs self-center"> $ 10500 / Month </div>
 
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="text-blue flex place-content-center place-items-center px-2">
-                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request an interview</button>
+                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request
+                                an interview</button>
                         </div>
                     </div>
 
                     <div class="flex lg:w-1/2 bg-blue h-20 rounded-lg p-2">
                         <div class="flex flex-row">
                             <div class="flex flex-col place-content-center">
-                             <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
-                             <div class="absolute z-10 pb-9 pl-12"><img src="../assets/checkmark.png" alt="check mark"></div>
+                                <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
+                                <div class="absolute z-10 pb-9 pl-6 md:pl-10 lg:pl-12"><img src="../assets/checkmark.png"
+                                        alt="check mark"></div>
                             </div>
                             <div class="flex flex-col place-content-center px-2 pb-3">
                                 <div>
-                                    <p>Stella Kamau</p>
+                                    <p class="text-xs xl:text-base">Stella Kamau</p>
                                 </div>
                                 <div>
                                     <p class="text-xs">Available to start now</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="flex flex-col mx-4">
                             <div class="h-8 mb-2 px-2 bg-white flex gap-2 place-content-center place-items-center">
                                 <div><img src="../assets/alarm.png" alt="alarm"></div>
-                                <div class="text-blue text-xs"><p>Suggested Match</p></div>
+                                <div class="text-blue text-xs">
+                                    <p>Suggested Match</p>
+                                </div>
                             </div>
                             <div class="text-xs self-center"> $ 10500 / Month </div>
 
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="text-blue flex place-content-center place-items-center px-2">
-                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request an interview</button>
+                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request
+                                an interview</button>
                         </div>
 
 
@@ -139,64 +158,77 @@
 
                 </div>
 
-                <div class="flex flex-col lg:flex-row  text-white px-14 gap-4 mt-4">
+                <div
+                    class="flex flex-col lg:flex-row md:place-content-center place-items-center text-white gap-2 lg:px-14 lg:gap-4 lg:mt-4">
                     <div class="flex lg:w-1/2 bg-blue h-20 rounded-lg p-2">
                         <div class="flex flex-row">
                             <div class="flex flex-col place-content-center">
-                             <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
-                             <div class="absolute z-10 pb-9 pl-12"><img src="../assets/checkmark.png" alt="check mark"></div>
+                                <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
+                                <div class="absolute z-10 pb-9 pl-6 md:pl-10 lg:pl-12"><img src="../assets/checkmark.png"
+                                        alt="check mark"></div>
                             </div>
                             <div class="flex flex-col place-content-center px-2 pb-3">
                                 <div>
-                                    <p>Stella Kamau</p>
+                                    <p class="text-xs xl:text-base">Stella Kamau</p>
                                 </div>
                                 <div>
                                     <p class="text-xs">Available to start now</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="flex flex-col mx-4">
                             <div class="h-8 mb-2 px-2 bg-white flex gap-2 place-content-center place-items-center">
                                 <div><img src="../assets/alarm.png" alt="alarm"></div>
-                                <div class="text-blue text-xs"><p>Suggested Match</p></div>
+                                <div class="text-blue text-xs">
+                                    <p>Suggested Match</p>
+                                </div>
                             </div>
                             <div class="text-xs self-center"> $ 10500 / Month </div>
 
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="text-blue flex place-content-center place-items-center px-2">
-                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request an interview</button>
+                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request
+                                an interview</button>
                         </div>
                     </div>
 
                     <div class="flex lg:w-1/2 bg-blue h-20 rounded-lg p-2">
                         <div class="flex flex-row">
                             <div class="flex flex-col place-content-center">
-                             <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
-                             <div class="absolute z-10 pb-9 pl-12"><img src="../assets/checkmark.png" alt="check mark"></div>
+                                <div><img src="../assets/image.png" alt="talent image" height="70px" width="70px"></div>
+                                <div class="absolute z-10 pb-9 pl-6 md:pl-6 lg:pl-12"><img src="../assets/checkmark.png"
+                                        alt="check mark"></div>
                             </div>
                             <div class="flex flex-col place-content-center px-2 pb-3">
                                 <div>
-                                    <p>Stella Kamau</p>
+                                    <p class="text-xs xl:text-base">Stella Kamau</p>
                                 </div>
                                 <div>
                                     <p class="text-xs">Available to start now</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="flex flex-col mx-4">
                             <div class="h-8 mb-2 px-2 bg-white flex gap-2 place-content-center place-items-center">
                                 <div><img src="../assets/alarm.png" alt="alarm"></div>
-                                <div class="text-blue text-xs"><p>Suggested Match</p></div>
+                                <div class="text-blue text-xs">
+                                    <p>Suggested Match</p>
+                                </div>
                             </div>
                             <div class="text-xs self-center"> $ 10500 / Month </div>
 
                         </div>
-                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle"></div>
+                        <div class="flex flex-col place-content-center"><img src="../assets/line.png" alt="rectangle">
+                        </div>
                         <div class="text-blue flex flex-col place-content-center place-items-center px-2">
-                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request an interview</button>
+                            <button class=" hover:bg-gray-500 h-9 rounded-lg px-2 bg-white text-xs" onclick="">Request
+                                an interview</button>
                         </div>
 
 
