@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <div class="bg-light-blue flex flex-col lg:px-24 w-full px-4 md:px-6 lg:px-4">
+        <aside class="basis-1/5">
+            <div class="flex place-content-center place-items-center"><img src="../assets/stockphoto.png" alt="stock photo" height="500px" width="300px"></div>
+            <div class="text-3xl text-center font-extrabold mb-4">
+                <p>Ow Snap!</p>
+            </div>
+            <div class="text-justify">
+                <p>Please provide details about the type of talent you are seeking, and our dedicated team and partners
+                    at Africheck will ensure to connect you with the ideal talent that matches your requirements.</p>
+            </div>
+        </aside>
+        <main class="basis-4/5">
+            <div class="flex flex-col gap-2 md:flex md:flex-row md:place-content-between mt-10">
+                <div>
+                    <select name="industry" id="industry" class="bg-blue rounded-md text-center text-white h-9">
+                        <option value="hidden">Industry</option>
+                        <option value="">Health Care</option>
+                        <option value="">Skilled Blue Collar</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="expertise" id="expertise" class="bg-blue rounded-md text-center text-white h-9">
+                        <option value="hidden">Expertise</option>
+                        <option value="">Dentists,Nurses</option>
+                        <option value="">Pharmacists</option>
+                        <option value="">Physical Therapists</option>
+                        <option value="">Occupational Therapists</option>
+                        <option value="">Medical Assistants</option>
+
+                    </select>
+                </div>
+                <div>
+                    <select name="age" id="age" class="bg-blue rounded-md text-center text-white h-9 w-36">
+                        <option value="hidden">Age</option>
+                        <option value="">18-24</option>
+                        <option value="">25-30</option>
+                        <option value="">30-35</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex place-content-between gap-2 mt-2 md:mt-16">
+                <div >
+                    <select name="experience" id="experience" class="bg-blue rounded-md text-center text-white h-9 w-48">
+                        <option value="hidden">Experience</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+
+                    </select>
+                </div>
+                <div>
+                    <select name="skills" id="skills" class="bg-blue rounded-md text-center text-white h-9 w-36">
+                        <option value="hidden">Skills</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="text-blue font-bold mt-16 mb-4" ><p>Add any additional information here</p></div>
+
+            <textarea name="" id="" cols="30" rows="10" class="w-full bg-gray-200 border rounded-lg pb-10"></textarea>
+
+            <div class="flex place-content-end mt-10"><button onclick="" class="bg-blue hover:opacity-50 h-9 w-1/5 rounded-md text-white ">Submit</button></div>
+
+            <div class="flex place-content-end mb-8 mt-10">
+                <button onclick=""
+                    class="bg-white hover:bg-gray-600 w-36 border-t-2 h-12 text-blue font-bold rounded-lg border-blue">
+                    <div class="flex place-content-center place-items-center">
+                        <div>Chat with us</div>
+                        <div><img src="../assets/whatsapp.png" alt="whatsapp" height="30px" width="30px"></div>
+                </button>
+            </div>
+            
+        </main>
+    </div>
+
+</body>
+
+</html>
