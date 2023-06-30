@@ -8,6 +8,6 @@ module.exports = {
       'light-blue':'#D1E8FF'
     }},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }
 
